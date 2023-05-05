@@ -17,7 +17,6 @@
   "extends": [
     "plugin:@typescript-eslint/recommended",
     "airbnb",
-    "airbnb/hooks",
     "airbnb-typescript",
     "plugin:prettier/recommended",
     "next/core-web-vitals"
@@ -29,5 +28,6 @@
     "react/jsx-filename-extension": [1, { "extensions": [".ts", ".tsx"] }],
     "react/jsx-props-no-spreading": "off",
     "prettier/prettier": ["error", { "endOfLine": "auto" }]
-  }
+  },
+  "ignorePatterns": ["next.config.js"]
 }
